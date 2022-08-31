@@ -11,7 +11,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
         <div className="about__content">
@@ -19,7 +19,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 Year Working</small>
+              <small>2 Years Working</small>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon" />
@@ -33,7 +33,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Solution-oriented and problem solver with 1 year experience building
+            Solution-oriented and problem solver with 2 year1 experience in building
             and maintaining sofware and software architecture. Highly skilled in
             communication, collaboration, and technical documentation.
           </p>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        ROUCLEC
+        Ed-Gah
       </a>
       <ul className="permalinks">
         <li>
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Rouclec Asonganyi. All rights reserved.</small>
+        <small>&copy; Chu Edwin Gah. All rights reserved.</small>
       </div>
     </footer>
   );

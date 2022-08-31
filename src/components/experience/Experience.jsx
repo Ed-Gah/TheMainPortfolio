@@ -28,7 +28,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="details__icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>Tailwindcss</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -37,6 +37,13 @@ const Experience = () => {
               <div>
                 <h4>Boostrap</h4>
                 <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="details__icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -53,6 +60,13 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="details__icon" />
+              <div>
+                <h4>Native Base</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experience__backend">
@@ -61,22 +75,29 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="details__icon" />
               <div>
-                <h4>Java SpringBoot</h4>
+                <h4>Node JS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="details__icon" />
               <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Basic</small>
+                <h4>Express JS</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="details__icon" />
               <div>
-                <h4>MYSQL</h4>
-                <small className="text-light">Basic</small>
+                <h4>Mongo DB</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="details__icon" />
+              <div>
+                <h4>REST API</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

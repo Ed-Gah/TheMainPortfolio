@@ -37,11 +37,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Build stable APIs with SpringBoot</p>
+              <p>Build stable REST APIs with Express JS</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Integrate BackEnd security using Spring Security</p>
+              <p>Integrate BackEnd to a NoSQL database (MongoDB) </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -56,15 +56,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Manage SQL databases such MySQL, PostgressSQL</p>
+              <p>Manage NoSQL databases such Mongo DB and Firebase CloudStore</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Manage NONSQL databases such as Firebase and MongoDB</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Implement Database Multitenancy with SQL databases</p>
+              <p>Implement Database Multitenancy</p>
             </li>
           </ul>
         </article>

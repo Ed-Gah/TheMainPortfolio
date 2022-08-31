@@ -11,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_31zjcyj",
-        "template_uxgmqwd",
+        "service_ztv59bc",
+        "template_bl5pmib",
         form.current,
-        "UXXzSMQFtt_pon6aw"
+        "CAq2G3OE8SgSH839R"
       )
       .then(
         (result) => {
@@ -36,9 +36,9 @@ const Contact = () => {
           <article className="contact__option">
             <FiMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>senatorasonganyi97@gmail.com</h5>
+            <h5>chuedgah@gmail.com</h5>
             <a
-              href="mailto:senatorasonganyi97@gmail.com"
+              href="mailto:chuedgah@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -48,7 +48,7 @@ const Contact = () => {
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>asonganyirouclec</h5>
+            <h5>edwingah</h5>
             <a
               href="https://m.me/asonganyi.rouclec.16"
               target="_blank"
@@ -60,7 +60,7 @@ const Contact = () => {
           <article className="contact__option">
             <RiWhatsappLine className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+237 650 184 172</h5>
+            <h5>+237 675 534 139</h5>
             <a
               href="https://wa.me/23750184172"
               target="_blank"
