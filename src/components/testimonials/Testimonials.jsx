@@ -18,7 +18,7 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <Swiper
-        pagination={{ dynamicBullets: true }}
+        pagination={{ dynamicBullets: false }}
         modules={[Pagination]}
         autoplay={true}
         spaceBetween={40}

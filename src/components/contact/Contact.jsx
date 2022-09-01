@@ -80,7 +80,7 @@ const Contact = () => {
           <input
             type="email"
             name="email"
-            placeholder="youremail@gmail.com"
+            placeholder="Your email@gmail.com"
             required
           />
           <textarea

@@ -1,9 +1,14 @@
+#testimonials > h5 {
+  font-size: 20px;
+}
+#testimonials > h2 {
+  font-size: 2rem;
+}
 .container.testimonials__container {
-  width: 40%;
   padding-bottom: 4rem;
 }
 .client__avatar {
-  width: 4rem;
+  width: 6rem;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
@@ -19,6 +24,10 @@
   user-select: none;
 }
 
+.client__name {
+  font-size: 20px;
+}
+
 .client__review {
   color: var(--color-light);
   font-weight: 300;
@@ -30,7 +39,7 @@
 /* ==================================================================== MEDIA QUERIES (MEDIUM DEVICES) ================================================*/
 @media screen and (max-width: 1024px) {
   .container.testimonials__container {
-    width: 60%;
+    width: 86%;
   }
 }
 
