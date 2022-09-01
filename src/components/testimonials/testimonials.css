@@ -4,8 +4,11 @@
 #testimonials > h2 {
   font-size: 2rem;
 }
-.container.testimonials__container {
+.container .testimonials__container {
   padding-bottom: 4rem;
+}
+.testimonials__container {
+  width: 70%;
 }
 .client__avatar {
   width: 6rem;

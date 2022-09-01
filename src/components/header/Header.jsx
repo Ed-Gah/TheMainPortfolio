@@ -1,6 +1,7 @@
 import React from "react";
 import CTA from "../CTA";
 import "./header.css";
+import { BsChevronDoubleDown } from "react-icons/bs";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
@@ -16,11 +17,13 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="" />
         </div>
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
-        <HeaderSocials />
+        <div className="header__social__scroll">
+          <a href="#contact" className="scroll__down">
+            Scroll down
+          <BsChevronDoubleDown className="header__down__arrow" />
+          </a>
+          <HeaderSocials />
+        </div>
       </div>
     </header>
   );

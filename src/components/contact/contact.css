@@ -9,6 +9,10 @@
   grid-template-columns: 35% 53%;
   gap: 12%;
 }
+.contact__container {
+  width: 70%;
+  margin: 0 auto;
+}
 
 .contact__options {
   display: flex;
