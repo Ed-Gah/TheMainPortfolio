@@ -44,7 +44,7 @@
   font-size: 0.8rem;
 }
 
-/* ==================================================================== FORM =========================================================================*/
+/* FORM*/
 form {
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ textarea {
   color: var(--color-white);
 }
 
-/* ==================================================================== MEDIA QUERIES (MEDIUM DEVICES) ================================================*/
+/* MEDIA QUERIES (MEDIUM DEVICES)*/
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     grid-template-columns: 1fr;
@@ -69,7 +69,7 @@ textarea {
   }
 }
 
-/* ==================================================================== MEDIA QUERIES (SMALL DEVICES) ==================================================*/
+/* MEDIA QUERIES (SMALL DEVICES)*/
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);

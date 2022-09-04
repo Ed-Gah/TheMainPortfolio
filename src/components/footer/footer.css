@@ -50,12 +50,12 @@ footer a {
   color: var(--color-bg);
 }
 
-/* ==================================================================== MEDIA QUERIES (MEDIUM DEVICES) ================================================*/
+/*  MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     
   }
   
-  /* ==================================================================== MEDIA QUERIES (SMALL DEVICES) ==================================================*/
+  /*  MEDIA QUERIES (SMALL DEVICES) */
   @media screen and (max-width: 600px) {
     .permalinks{
         flex-direction: column;

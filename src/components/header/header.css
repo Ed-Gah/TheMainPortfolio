@@ -17,7 +17,7 @@ header {
   font-size: 3rem;
 }
 
-/* ===================================== CTA ======================================= */
+/* CTA */
 .cta {
   margin-top: 2.5rem;
   display: flex;
@@ -25,7 +25,7 @@ header {
   justify-content: center;
 }
 
-/* ====================================== SOCIALS ======================================= */
+/*  SOCIALS */
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 12rem;
+  bottom: 8rem;
   margin-left: 14.5rem;
   font-size: 1.3rem;
 }
@@ -59,12 +59,12 @@ header {
   padding: 2rem 1rem 1rem 1rem;
 }
 
-/* =========================================================== SCROLL DOWN =================================*/
+/* SCROLL DOWN*/
 
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 15rem;
+  bottom: 11rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1.5rem;
@@ -77,11 +77,25 @@ header {
   transform: rotate(270deg);
 }
 
+/* Media queries large devices */
+
+@media screen and (max-width: 1280px) {
+  .header__socials {
+    margin-left: 11rem;
+  }
+  .scroll__down {
+    margin-right: 10rem;
+  }
+}
 /* MEDIA QUERIES (MEDIUM DEVICES)  */
 
 @media screen and (max-width: 1024px) {
   header {
     height: 110vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
   }
 }
 
@@ -98,3 +112,14 @@ header {
   }
 }
 
+/* Media queries for smaller devices */
+@media screen and (max-width: 393px) {
+  header{
+  
+    margin-left: 3rem;
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}

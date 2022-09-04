@@ -42,7 +42,7 @@ body {
   background-image: url("../src/assets/bg-texture.png");
 }
 
-/* ====================================== GENERAL STYLES ========================= */
+/*  GENERAL STYLES  */
 /* .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -115,7 +115,7 @@ img {
   object-fit: cover;
 }
 
-/* ========================================= MEDIA QUERIES (MEDIUMM DEVICES) ============================================= */
+/* MEDIA QUERIES (MEDIUMM DEVICES) */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -127,7 +127,7 @@ img {
   }
 }
 
-/* ========================================= MEDIA QUERIES (SMALL DEVICES) ============================================= */
+/* MEDIA QUERIES (SMALL DEVICES)  */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
